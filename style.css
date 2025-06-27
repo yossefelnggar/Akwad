@@ -10,7 +10,9 @@
 body {
   margin: 0;
   padding: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background: linear-gradient(to bottom, var(--لون-1), var(--لون-5));
   color: var(--لون-2);
   min-height: 100vh;
@@ -21,6 +23,33 @@ h1, h2 {
   text-align: center;
   color: var(--لون-5);
   text-shadow: 0 0 5px var(--لون-3);
+}
+/*ال navbar */
+nav {
+    backdrop-filter:blur(5px);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border-bottom:2px solid var(--color2);    
+    position: fixed;
+    width: 100vw;
+}
+nav .links ul {
+    display:flex;
+    list-style-type:none;
+}
+nav .links ul li {
+    margin: 0 15px;
+}
+nav .links ul li a {
+    font-weight:900;
+    color: var(--color1);
+    transition :.7s;
+    text-decoration:none;
+}
+nav .links ul li a:hover {
+    color: var(--color3);
+    border-bottom:2px solid var(--color1);
 }
 
 /* الأقسام */
