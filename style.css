@@ -30,7 +30,7 @@ nav {
     display:flex;
     align-items:center;
     justify-content:space-around;
-    border-bottom:2px solid var(--color2);    
+    border-bottom:2px solid var(--color-2);    
     position: fixed;
     width: 100vw;
 }
@@ -43,13 +43,13 @@ nav .links ul li {
 }
 nav .links ul li a {
     font-weight:900;
-    color: var(--color4);
+    color: var(--color-4);
     transition :.7s;
     text-decoration:none;
 }
 nav .links ul li a:hover {
-    color: var(--color3);
-    border-bottom:2px solid var(--color1);
+    color: var(--color-3);
+    border-bottom:2px solid var(--color-1);
 }
 
 /* الأقسام */
