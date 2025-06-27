@@ -13,16 +13,16 @@ body {
   font-family: "Faculty Glyphic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: linear-gradient(to bottom, var(--لون-1), var(--لون-5));
-  color: var(--لون-2);
+  background: linear-gradient(to bottom, var(--color-1), var(--color-5));
+  color: var(--color-2);
   min-height: 100vh;
 }
 
 /* العناوين */
 h1, h2 {
   text-align: center;
-  color: var(--لون-5);
-  text-shadow: 0 0 5px var(--لون-3);
+  color: var(--color-5);
+  text-shadow: 0 0 5px var(--color-3);
 }
 /*ال navbar */
 nav {
@@ -43,7 +43,7 @@ nav .links ul li {
 }
 nav .links ul li a {
     font-weight:900;
-    color: var(--color1);
+    color: var(--color4);
     transition :.7s;
     text-decoration:none;
 }
@@ -59,29 +59,29 @@ nav .links ul li a:hover {
 
 /* كروت الكود */
 .code-card {
-  background-color: var(--لون-2);
-  border: 1px solid var(--لون-4);
+  background-color: var(--color-2);
+  border: 1px solid var(--color-4);
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px var(--لون-3);
-  color: var(--لون-5);
+  box-shadow: 0 0 10px var(--color-3);
+  color: var(--color-5);
 }
 
 /* الكود داخل الكروت */
 pre {
-  background-color: var(--لون-1);
+  background-color: var(--color-1);
   padding: 10px;
   border-radius: 6px;
   overflow-x: auto;
-  color: var(--لون-4);
+  color: var(--color-4);
   white-space: pre-wrap;
 }
 
 /* الأزرار */
 button {
-  background-color: var(--لون-3);
-  color: var(--لون-1);
+  background-color: var(--color-3);
+  color: var(--color-1);
   border: none;
   padding: 10px 15px;
   border-radius: 8px;
@@ -92,13 +92,13 @@ button {
 }
 
 button:hover {
-  background-color: var(--لون-4);
+  background-color: var(--color-4);
 }
 
 /* منطقة الإخراج */
 .output {
-  background-color: var(--لون-1);
-  color: var(--لون-5);
+  background-color: var(--color-1);
+  color: var(--color-5);
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
@@ -111,8 +111,8 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
-  background-color: var(--لون-2);
-  color: var(--لون-5);
+  background-color: var(--color-2);
+  color: var(--color-5);
   padding: 15px;
   border-radius: 10px;
 }
